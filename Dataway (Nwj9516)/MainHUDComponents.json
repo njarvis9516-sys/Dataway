@@ -1,0 +1,429 @@
+{
+  "Version": 1,
+  "DrawableInfo": {
+    "global": [
+      {
+        "Type": "osu.Game.Screens.Play.HUD.ArgonWedgePiece, osu.Game, Version=2026.624.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": -50.0,
+          "y": 15.0
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "Width": 380.0,
+        "Height": 72.0,
+        "Anchor": 9,
+        "Origin": 9,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "invert_shear": false,
+          "accent_colour": "#66CCFF"
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Screens.Play.HUD.ArgonWedgePiece, osu.Game, Version=2026.624.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": -46.0,
+          "y": 20.0
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "Width": 380.0,
+        "Height": 72.0,
+        "Anchor": 9,
+        "Origin": 9,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "invert_shear": false,
+          "accent_colour": "#66CCFF"
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Screens.Play.HUD.ArgonScoreCounter, osu.Game, Version=2026.624.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 250.0,
+          "y": 50.0
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 9,
+        "Origin": 33,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "wireframe_opacity": 0.25,
+          "show_label": false
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Screens.Play.HUD.ArgonHealthDisplay, osu.Game, Version=2026.624.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 50.0,
+          "y": 20.0
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "Width": 300.0,
+        "Height": null,
+        "Anchor": 9,
+        "Origin": 9,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "bar_height": 30.0,
+          "use_relative_size": false
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Skinning.Components.BoxElement, osu.Game, Version=2026.624.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 0.0,
+          "y": 30.0
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "Width": 45.0,
+        "Height": 3.0,
+        "Anchor": 9,
+        "Origin": 10,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "corner_radius": 0.5,
+          "accent_colour": "#FFFFFF"
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Screens.Play.HUD.ArgonAccuracyCounter, osu.Game, Version=2026.624.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": -20.0,
+          "y": 20.0
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 33,
+        "Origin": 33,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "wireframe_opacity": 0.25,
+          "show_label": true,
+          "accuracy_display": 0
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Screens.Play.HUD.ArgonPerformancePointsCounter, osu.Game, Version=2026.624.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": -20.0,
+          "y": 71.99976
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 33,
+        "Origin": 33,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "wireframe_opacity": 0.25,
+          "show_label": true
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Screens.Play.HUD.HitErrorMeters.BarHitErrorMeter, osu.Game, Version=2026.624.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 10,
+        "Origin": 10,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "judgement_line_thickness": 4.0,
+          "colour_bar_visibility": true,
+          "show_moving_average": true,
+          "centre_marker_style": 1,
+          "label_style": 1
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Screens.Play.HUD.ArgonSongProgress, osu.Game, Version=2026.624.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 0.0,
+          "y": -10.0
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 0.9,
+          "y": 1.0
+        },
+        "Width": 1.0,
+        "Height": null,
+        "Anchor": 20,
+        "Origin": 20,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "show_graph": true,
+          "show_time": true,
+          "use_relative_size": true,
+          "accent_colour": "#FFFFFF"
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Screens.Play.HUD.DefaultRankDisplay, osu.Game, Version=2026.624.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": -12.81604,
+          "y": 122.750275
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "Width": 70.0,
+        "Height": 35.0,
+        "Anchor": 33,
+        "Origin": 33,
+        "UsesFixedAnchor": false,
+        "Settings": {
+          "play_samples": true
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Screens.Play.HUD.JudgementCounter.JudgementCounterDisplay, osu.Game, Version=2026.624.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 222.26611,
+          "y": -64.3943
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.4730886,
+          "y": 1.4730886
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 12,
+        "Origin": 12,
+        "UsesFixedAnchor": false,
+        "Settings": {
+          "mode": 0,
+          "flow_direction": 0,
+          "show_judgement_names": true,
+          "show_max_judgement": true
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Screens.Play.HUD.HitErrorMeters.ColourHitErrorMeter, osu.Game, Version=2026.624.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": -15.441711,
+          "y": 0.21504211
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 34,
+        "Origin": 34,
+        "UsesFixedAnchor": false,
+        "Settings": {
+          "judgement_count": 20,
+          "judgement_spacing": 2.0,
+          "judgement_shape": 0
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Screens.Play.HUD.ClicksPerSecond.ClicksPerSecondCounter, osu.Game, Version=2026.624.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 22.916931,
+          "y": -63.34314
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.8626232,
+          "y": 1.8626232
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 20,
+        "Origin": 20,
+        "UsesFixedAnchor": false,
+        "Settings": {},
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Screens.Play.HUD.BPMCounter, osu.Game, Version=2026.624.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": -250.29004,
+          "y": -65.44498
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.7589518,
+          "y": 1.7589518
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 36,
+        "Origin": 36,
+        "UsesFixedAnchor": false,
+        "Settings": {},
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Skinning.Components.TextElement, osu.Game, Version=2026.624.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 8.640533,
+          "y": -260.76007
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 0.40382674,
+          "y": 0.40382674
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 12,
+        "Origin": 12,
+        "UsesFixedAnchor": false,
+        "Settings": {
+          "text": "Error meader",
+          "font": 1,
+          "text_weight": 400,
+          "text_colour": "#FFFFFF"
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Skinning.Components.TextElement, osu.Game, Version=2026.624.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": -7.66687,
+          "y": 127.851074
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 0.3498688,
+          "y": 0.3498688
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 34,
+        "Origin": 34,
+        "UsesFixedAnchor": false,
+        "Settings": {
+          "text": "colar hit Error meader",
+          "font": 1,
+          "text_weight": 400,
+          "text_colour": "#FFFFFF"
+        },
+        "Children": []
+      }
+    ],
+    "fruits": [
+      {
+        "Type": "osu.Game.Screens.Play.HUD.DrawableGameplayLeaderboard, osu.Game, Version=2026.624.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 36.0,
+          "y": 115.0
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "Width": 277.6,
+        "Height": 300.0,
+        "Anchor": 9,
+        "Origin": 9,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "collapse_during_gameplay": true
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Screens.Play.HUD.ArgonComboCounter, osu.Game, Version=2026.624.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 36.0,
+          "y": -66.0
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.3,
+          "y": 1.3
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 12,
+        "Origin": 12,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "wireframe_opacity": 0.25,
+          "show_label": true
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Screens.Play.HUD.SpectatorList, osu.Game, Version=2026.624.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 36.0,
+          "y": -144.80026
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "Width": 75.740005,
+        "Height": null,
+        "Anchor": 12,
+        "Origin": 12,
+        "UsesFixedAnchor": true,
+        "Settings": {},
+        "Children": []
+      }
+    ]
+  }
+}
