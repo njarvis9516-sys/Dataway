@@ -5,6 +5,9 @@ Dataway has a lot of data about levels
 
 # How to use
 Compress the dataway file
+
 enable file name extensions
+
 Switch the .zip to .osk
+
 Double-click the file
